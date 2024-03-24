@@ -1,3 +1,46 @@
+* {
+	font-size: 1em;
+	background-color: hsl(0, 0%, 0%);
+	color: hsl(0, 0%, 100%);
+}
+
+.developerHero {
+	width: 20em;
+	padding: 2em;
+	border-radius: 1em;
+	background-color: hsl(0, 0%, 12%);
+}
+
+h1,
+.devBio,
+.devCity,
+.devSocialMedia,
+p {
+	background: hsl(0, 0%, 12%);
+}
+
+img {
+	border-radius: 50%;
+}
+
+.devCity {
+	color: hsl(75, 94%, 57%);
+	font-weight: bold;
+}
+
+.devGitHub,
+.devFem,
+.devLinkedIn,
+.devTwitter,
+.devInsta {
+	border-radius: 1em;
+	/* top | right | bottom | left */
+	padding: 1em 2.2em 1em 2.2em;
+	margin-top: 0.5em;
+	background-color: hsl(0, 0%, 20%);
+	border: none;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
