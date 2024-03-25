@@ -5,10 +5,13 @@
 }
 
 .developerHero {
+	display: block;
+	margin: auto;
 	width: 20em;
-	padding: 2em;
-	border-radius: 1em;
+	height: 50em;
+	padding-left: 8em;
 	background-color: hsl(0, 0%, 12%);
+	border-radius: 1em;
 }
 
 h1,
@@ -19,7 +22,24 @@ p {
 	background: hsl(0, 0%, 12%);
 }
 
+.devName {
+	font-size: 2em;
+	/* top | right | bottom | left */
+	margin: 0.85em 2em 0 0;
+}
+
+.devCity {
+	/* top | right | bottom | left */
+	margin: 1em 1em 1em 1em;
+}
+
+.devInfo {
+	/* top | right | bottom | left */
+	margin: 1em 0 1em 0;
+}
+
 img {
+	display: block;
 	border-radius: 50%;
 }
 
@@ -33,10 +53,12 @@ img {
 .devLinkedIn,
 .devTwitter,
 .devInsta {
+	/* display: flex; */
 	border-radius: 1em;
 	/* top | right | bottom | left */
-	padding: 1em 2.2em 1em 2.2em;
-	margin-top: 0.5em;
+	padding: 1em 4em 1em 4em;
+	margin-left: 0;
+	margin-top: 1em;
 	background-color: hsl(0, 0%, 20%);
 	border: none;
 }
